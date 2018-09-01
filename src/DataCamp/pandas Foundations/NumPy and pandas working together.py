@@ -11,4 +11,4 @@ np_vals_log10 = np.log10(np_vals)
 df_log10 = np.log10(df)
 
 # Print original and new data containers
-[print(x, 'has type', type(eval(x))) for x in ['np_vals', 'np_vals_log10', 'df', 'df_log10']]
+print(x, 'has type', type(eval(x))) for x in ['np_vals', 'np_vals_log10', 'df', 'df_log10']]
